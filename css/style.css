@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footer{
+    text-align: center;
+    padding: 2rem;
+    color: rgb(236, 99, 58);
+    margin-right: 1rem;
+    
+    
+}
+
+
+.btn {
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    margin: auto;
+    position: relative;
+    left: 40%;
+    border-bottom: 0.2rem solid white;
+    margin-top: 5rem;
+    transition: all .3s;
+    
+
+  }
+
+  .btn:hover {opacity: 1}
+
+  ul
+{
+list-style-type: none;
+}
+
+body {
+    background-color: rgb(184, 66, 66);
+    font-family: 'Architects Daughter', cursive;
+    line-height: 1.7;
+    clip-path: polygon(50% 0%, 100% 0, 100% 60%, 84% 100%, 21% 100%, 0% 60%, 0 0);
+}
+
+
+
+
+
+.btn:hover{
+    background-color: rgb(233, 46, 46);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+    transform: translateY(5px);
+}
+
+
+.btn:active{
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  transform: translateY(5px);
+}
+
+
+.intro-image,.packaging-image,.tutorials-image{
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+}
+
+.intro-image{
+    background-image: url('../img/pexels-photo-370000883.jpeg');
+    min-height: 400px;
+}
+
+
+.packaging-image{
+    background-image: url('../img/candle3.jpeg');
+    min-height: 400px;
+}
+
+
+.tutorials-image{
+    background-image: url('../img/pexels-photo-220618.jpeg');
+    min-height: 400px;
+}
+
+.intro-text{
+    text-align: center;
+    padding: 50px 80px;
+    
+}
+
+
+.packaging-text{
+    text-align: center;
+    padding: 50px 80px;
+}
+
+
+.wrapper a{
+    text-decoration: none;
+    color: rgb(201, 182, 147);
+}
+
