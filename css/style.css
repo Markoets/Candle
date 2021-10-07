@@ -57,6 +57,7 @@ body {
     font-family: 'Architects Daughter', cursive;
     line-height: 1.7;
     color: beige;
+    overflow-x: hidden;
 }
 
 
@@ -143,3 +144,15 @@ body {
 .tutorials-image__text{
     transform: scale(1.3);
 }
+
+.tutorials-image__text a{
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
+
+
+.heading-solid{
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
